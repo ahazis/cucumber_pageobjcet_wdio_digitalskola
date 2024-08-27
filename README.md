@@ -30,7 +30,7 @@
 ## Run test
 	npm run wdio
 
-## depemdencies
+## devDependencies
     "@wdio/allure-reporter": "^9.0.4",
     "@wdio/cli": "^9.0.7",
     "@wdio/cucumber-framework": "^9.0.6",
