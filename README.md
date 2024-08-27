@@ -21,7 +21,7 @@
     ? Do you want to add a service to your test setup?
     ? Do you want me to run `npm install` yes
    
-## tambahkan script di package.json
+## Tambahkan script wdio di package.json
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "wdio": "wdio run wdio.conf.js"
