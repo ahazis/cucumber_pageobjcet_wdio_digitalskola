@@ -1,21 +1,21 @@
 ## setup install
-? A project named "cucumber" was detected at "C:\Users\lenov\OneDrive\Desktop\E-learning\Pert 11\Cucumber", correct? yes
-? What type of testing would you like to do? E2E Testing - of Web or Mobile Applications
-? Where is your automation backend located? On my local machine
-? Which environment you would like to automate? Web - web applications in the browser
-? With which browser should we start? Chrome
-? Which framework do you want to use? Cucumber (https://cucumber.io/)
-? Do you want to use Typescript to write tests? no
-? Do you want WebdriverIO to autogenerate some test files? yes
-? What should be the location of your feature files? C:\Users\lenov\OneDrive\Desktop\E-learning\Pert 11\Cucumber\features\**\*.feature
-? What should be the location of your step definitions? C:\Users\lenov\OneDrive\Desktop\E-learning\Pert 11\Cucumber\features\step-definitions\steps.js   
-? Do you want to use page objects (https://martinfowler.com/bliki/PageObject.html)? yes
-? Where are your page objects located? C:\Users\lenov\OneDrive\Desktop\E-learning\Pert 11\Cucumber\features\pageobjects\**\*.js
-? Which reporter do you want to use? spec, json, cucumber-json
-? Do you want to add a plugin to your test setup?
-? Would you like to include Visual Testing to your setup? For more information see https://webdriver.io/docs/visual-testing! no
-? Do you want to add a service to your test setup?
-? Do you want me to run `npm install` yes
+    ? A project named "cucumber" was detected at "C:\Users\lenov\OneDrive\Desktop\E-learning\Pert 11\Cucumber", correct? yes
+    ? What type of testing would you like to do? E2E Testing - of Web or Mobile Applications
+    ? Where is your automation backend located? On my local machine
+    ? Which environment you would like to automate? Web - web applications in the browser
+    ? With which browser should we start? Chrome
+    ? Which framework do you want to use? Cucumber (https://cucumber.io/)
+    ? Do you want to use Typescript to write tests? no
+    ? Do you want WebdriverIO to autogenerate some test files? yes
+    ? What should be the location of your feature files? C:\Users\lenov\OneDrive\Desktop\E-learning\Pert 11\Cucumber\features\**\*.feature
+    ? What should be the location of your step definitions? C:\Users\lenov\OneDrive\Desktop\E-learning\Pert 11\Cucumber\features\step-definitions\steps.js   
+    ? Do you want to use page objects (https://martinfowler.com/bliki/PageObject.html)? yes
+    ? Where are your page objects located? C:\Users\lenov\OneDrive\Desktop\E-learning\Pert 11\Cucumber\features\pageobjects\**\*.js
+    ? Which reporter do you want to use? spec, json, cucumber-json
+    ? Do you want to add a plugin to your test setup?
+    ? Would you like to include Visual Testing to your setup? For more information see https://webdriver.io/docs/visual-testing! no
+    ? Do you want to add a service to your test setup?
+    ? Do you want me to run `npm install` yes
 
 ## install
     npm init -y
