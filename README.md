@@ -1,4 +1,8 @@
-## setup install
+## Install
+    npm init -y
+    npm init wdio@latest . --force
+
+## Setup Install
     ? A project named "cucumber" was detected at "C:\Users\lenov\OneDrive\Desktop\E-learning\Pert 11\Cucumber", correct? yes
     ? What type of testing would you like to do? E2E Testing - of Web or Mobile Applications
     ? Where is your automation backend located? On my local machine
@@ -16,12 +20,7 @@
     ? Would you like to include Visual Testing to your setup? For more information see https://webdriver.io/docs/visual-testing! no
     ? Do you want to add a service to your test setup?
     ? Do you want me to run `npm install` yes
-
-## install
-    npm init -y
-    npm init wdio@latest . --force
-     
-
+   
 ## tambahkan script di package.json
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -32,21 +31,21 @@
 	npm run wdio
 
 ## depemdencies
+    "@wdio/allure-reporter": "^9.0.4",
     "@wdio/cli": "^9.0.7",
     "@wdio/cucumber-framework": "^9.0.6",
-    "@wdio/json-reporter": "^9.0.4",
     "@wdio/local-runner": "^9.0.7",
     "@wdio/spec-reporter": "^9.0.7",
-    "wdio-cucumberjs-json-reporter": "^5.2.1"
+    "wdio-wait-for": "^3.0.11"
 
-## Cucumber Tag
+## Run with Cucumber Tag
 	npx wdio run ./wdio.conf.js --cucumberOpts.tags "@LoginTest"
 	npx wdio run ./wdio.conf.js --cucumberOpts.tags "@LoginTest and not @testCase2"
 
 ## tambahkan script untuk screenshoot jika failed testing
 
-const fs = require('fs');
-const path = require('path');
+    const fs = require('fs');
+    const path = require('path');
 
     afterScenario: async function (world, result, context) {
         console.log('Skenario selesai. Memeriksa hasil untuk mengambil tangkapan layar jika gagal.');
