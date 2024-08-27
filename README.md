@@ -42,7 +42,7 @@
 	npx wdio run ./wdio.conf.js --cucumberOpts.tags "@LoginTest"
 	npx wdio run ./wdio.conf.js --cucumberOpts.tags "@LoginTest and not @testCase2"
 
-## tambahkan script untuk screenshoot jika failed testing
+## Tambahkan code afterScenario untuk screenshoot jika failed testing
 
     const fs = require('fs');
     const path = require('path');
